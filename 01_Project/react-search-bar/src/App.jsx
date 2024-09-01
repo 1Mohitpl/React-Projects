@@ -1,17 +1,19 @@
 import './App.css'
-
+import { useState } from 'react'
 import SearchBar from './Components/searchbar'
+import Searchresults from './Components/searchresults';
 
 
 function App() {
+  const [results, setResults] = useState([]);
   
   return ( 
     <>
     <div className="app">
       <div className="serch-bar">
-      <SearchBar />
-      
-        {/* <div>SearchResults</div> */}
+      <SearchBar setResults = {setResults} />
+      <Searchresults results = {results}/>
+    
 
       </div>
 

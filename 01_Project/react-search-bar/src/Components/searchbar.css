@@ -1,10 +1,10 @@
 .input{
-    background: #ffff ;
+    background-color: white ;
     width: 100%;
     border-radius: 10px;
     height: 2.5rem;
     padding-left: 20px;
-    box-shadow: 0px 0px 0px 8px #545454;
+    box-shadow: 0px 0px 8px #ddd;
     display: flex;
     align-items: center;
 }
