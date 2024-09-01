@@ -1,0 +1,15 @@
+.app{
+  background-color: lightgray;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.serch-bar{
+padding-top: 10vh;
+width: 40%;
+min-width: 200px;
+}
