@@ -1,7 +1,9 @@
+import Authform from "./Authform";
+
 const App = () =>{
    return (
      <div>
-       <h1>LoginForm</h1>
+         <Authform />
      </div>
    )
 }
